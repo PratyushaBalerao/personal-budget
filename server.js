@@ -42,7 +42,7 @@ app.get('/hello', (req, res) => {
 });
 
 app.use('/budget', (req, res) => {
-    res.json(budget);
+    res.sendFile("C:\\Users\\Pratyusha Balerao\\Downloads\\NBAD\\NBAD_24\\Week03\\personal-budget1\\server.json");
 })
 
 
